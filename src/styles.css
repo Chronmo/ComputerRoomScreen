@@ -46,6 +46,43 @@ body {
   mask-image: linear-gradient(to bottom, black, transparent 78%);
 }
 
+.state-card {
+  position: relative;
+  grid-row: 1 / -1;
+  display: grid;
+  place-content: center;
+  gap: 12px;
+  min-height: 100%;
+  border: 1px solid rgba(94, 234, 212, 0.18);
+  border-radius: 8px;
+  background: rgba(4, 12, 18, 0.9);
+  text-align: center;
+}
+
+.state-card b {
+  color: #ecfeff;
+  font-size: 28px;
+}
+
+.state-card span {
+  color: #9bd6dc;
+}
+
+.state-card button {
+  width: 120px;
+  margin: 0 auto;
+  padding: 8px 14px;
+  border: 1px solid rgba(94, 234, 212, 0.4);
+  border-radius: 6px;
+  color: #dffcff;
+  background: rgba(20, 184, 166, 0.18);
+  cursor: pointer;
+}
+
+.state-card.error b {
+  color: #fbbf24;
+}
+
 .topbar,
 .kpis article,
 .panel {
