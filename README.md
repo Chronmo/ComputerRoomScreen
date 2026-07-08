@@ -2,6 +2,10 @@
 
 数据中心运行监控大屏，使用 Vue 3 + TypeScript + Vite 实现。
 
+## 效果预览
+
+![数据中心运行监控大屏效果图](docs/dashboard-preview.png)
+
 ## 功能
 
 - 从 `host_detail.dat`、`mod_detail.dat`、`pref_tsar.dat`、`disk_tsar.dat` 提炼最终展示数据
